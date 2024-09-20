@@ -1,0 +1,205 @@
+/* ใช้ Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.footer-column {
+    font-family: "Taviraj", serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Taviraj", serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 40px; /* เพิ่มค่า padding เข้ามาให้ header ขยับเข้ามาด้านใน */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a img {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%; /* ปรับให้เป็นวงกลม*/
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px; /* ลดช่องว่างระหว่างไอคอนโซเชียล */
+}
+
+/* ส่วน 1 */
+#portfolio-1 {
+    background-color: #00a8e8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.portfolio-text-container-left {
+    max-width: 40%;
+    margin-right: auto;
+    color: #fff;
+}
+
+.portfolio-text-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.portfolio-text-body {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.portfolio-text-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ส่วน 2 */
+#portfolio-2 {
+    background-color: #ffc107;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.portfolio-text-container-right {
+    max-width: 40%;
+    margin-left: auto; /* ให้ข้อความอยู่ด้านขวา */
+    color: #fff;
+}
+
+.portfolio-text-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.portfolio-text-body {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* ส่วน 3 */
+#portfolio-3 {
+    background-color: #00bfa5;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.portfolio-text-container-left {
+    max-width: 40%;
+    margin-right: auto;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Portfolio Section 1 */
+#portfolio-1 {
+    background-image: url(''); /* เปลี่ยนเป็น path ของภาพ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* ความสูงเต็มหน้าจอ */
+}
+
+/* Portfolio Section 2 */
+#portfolio-2 {
+    background-image: url(''); /* เปลี่ยนเป็น path ของภาพ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Portfolio Section 3 */
+#portfolio-3 {
+    background-image: url(''); /* เปลี่ยนเป็น path ของภาพ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+footer {
+    background-color: #444; /* สีพื้นหลัง */
+    color: white;
+    padding: 40px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around; /* กระจายคอลัมน์ให้มีพื้นที่เท่ากัน */
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center; /* จัดการข้อความให้อยู่ตรงกลาง */
+}
+
+.footer-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* จัดให้ไอคอนอยู่ตรงกลาง */
+    align-items: center;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px; /* ระยะห่างระหว่างไอคอน */
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+}
